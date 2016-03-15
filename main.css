@@ -1,0 +1,230 @@
+#image {
+    z-index: 1;
+    width: 960px;
+    height: 400px;
+    position: absolute;
+
+}
+
+#underbar {
+    width: 960px;
+    height: 375px;
+    border-bottom: 1px solid lightgray;
+}
+
+#logo1 {
+    z-index: 2;
+    width: 75px;
+    height: 60px;
+    position: relative;
+    margin: 10px;
+
+}
+#container h2 {
+    color: #790000;
+    z-index: 2;
+    position: absolute;
+    left: 330px;
+
+}
+
+#searchfield {
+    color: black;
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    top: 300px;
+    left: 250px;
+    opacity: 0.6;
+
+}
+
+nav ul {
+    background-color: white;
+    margin: 0px;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: white;
+    float: left;
+    padding: 5px;
+    list-style-type: none;
+    border-right: solid lightgrey 1px;
+}
+
+nav ul li:last-child {
+    border: none;
+    padding: 5px 30px 5px 30px;
+}
+
+nav ul li:last-child {
+    background-color: #790000;
+    color: white;
+}
+
+/*#menu {
+    z-index: 3;
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 75px;
+    height: 50px;
+    opacity: 0.6;
+
+
+}*/
+
+
+#underbar img {
+    height: 30px;
+    width: 30px;
+    float: left;
+    position: relative;
+    top: 275px;
+    margin-left: 100px;
+
+}
+
+#picture {
+    width: 960px;
+    margin-bottom: 150px;
+}
+
+#s_top h1 {
+    text-align: center;
+}
+
+.summerhouse {
+    width: 90px;
+    height: 90px;
+    border: 10px solid #790000;
+    float: left;
+    margin: 10px;
+}
+
+#summerhouse {
+   margin-left: 220px;
+}
+
+#s_bot_picture {
+    clear:both;
+}
+
+#s_bot p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer {
+    width: 960px;
+    height: 350px;
+    background-color: #790000;
+    color: white;
+}
+
+/*#f_top {
+    width: 960px;
+    height: 175px;
+    border-bottom: 1px solid white;
+}*/
+
+#f_top:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1200px;
+    width: 50%;
+    left:12%;
+    border-top: 1px solid white;
+}
+
+.f_picture {
+    width: 50px;
+    height: 50px;
+}
+
+#f_contact {
+    float: left;
+    width: 200px;
+    margin: 10px 10px 10px 40px;
+}
+
+#f_contact p {
+    margin: 0;
+}
+
+#f_house {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+#f_house p {
+    margin: 0;
+}
+
+#f_mail {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+#f_mail p {
+    margin: 0;
+}
+
+#f_fb {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+#f_fb p {
+    margin: 0;
+}
+
+
+#f_language {
+    width: 150px;
+}
+
+#f_dropdown {
+    float: left;
+    width: 130px;
+    height: 30px;
+    font-size: 25px;
+    margin: 20px 70px 20px 40px;
+}
+
+#f_holiday {
+    float: left;
+    margin: 20px 10px 20px 20px;
+}
+
+#f_holiday p {
+    margin: 0px;
+}
+
+#f_location {
+    float: left;
+    margin: 20px;
+}
+
+#f_location p {
+    margin: 0;
+    float: left;
+}
+
+
+#logo {
+    width: 90px;
+    height: 90px;
+    margin: 45px 20px 20px 20px;
+}
